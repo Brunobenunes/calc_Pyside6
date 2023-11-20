@@ -36,7 +36,7 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName(u"centralwidget")
         self.result = QLabel(self.centralwidget)
         self.result.setObjectName(u"result")
-        self.result.setGeometry(QRect(280, 10, 111, 31))
+        self.result.setGeometry(QRect(40, 10, 351, 31))
         self.result.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
         self.result.setMargin(10)
         self.display = QLineEdit(self.centralwidget)
